@@ -1,3 +1,0 @@
-when using template, extend the base template without forgeting to add strings around it
-
-use "--ignore-installed" and "--force-reinstall" if ipynb kernel is not installed
