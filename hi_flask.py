@@ -14,7 +14,7 @@ def entry():
     return render_template("entry.html", the_title="Welcome to search for letters!! | this is title")
 
 
-@app.route("/converted-results*#+-/", methods=["GET" , "POST"])
+@app.route("/converted-results", methods=["GET" , "POST"])
 def do_search() -> str:
     phrase = request.form["phrase"]
     print(phrase)
