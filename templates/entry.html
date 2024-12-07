@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block bodyy %} 
+<title>{{the_title}}</title>
+  
+<h2>hello !! welcome to search for letters app </h2>
+   
+<form method="POST" action="/converted-results*#+-">
+    <table>
+        <tr>
+            <td>Phrase: </td>
+            <td> 
+                <input type="text" name="phrase" width="60" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>Letters: </td>
+            <td> 
+                <input type="text" name="letters" width="60" value="aeiou">
+            </td>
+        </tr>
+    </table>
+
+<p>Click submit when you are ready to view the results!</p>
+<p><input type="submit" value="do it!"></input></p>
+
+</form>
+{% endblock %}
