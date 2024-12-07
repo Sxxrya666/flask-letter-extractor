@@ -9,3 +9,5 @@ Developed a custom Python library with two functions using setuptools and utiliz
 - `hi_flask.py`: Main application file
 - `static/`: Static files (CSS, JS, images)
 - `templates/`: HTML templates
+- `mymodule/`: Custom library for phrase manipulations 
+
